@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "811894051190",
+    "project_id": "elc-project-f4d5d",
+    "storage_bucket": "elc-project-f4d5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811894051190:android:b3ea87665d9deceea92a57",
+        "android_client_info": {
+          "package_name": "com.example.todo_app_firestore_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811894051190-koe6vthb9sri8b11vtgufk1orr6q47b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmeTnWrH0satj6YdE1PmfBQz8gNLD1L2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811894051190-koe6vthb9sri8b11vtgufk1orr6q47b6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "811894051190-3o2cna2p3j6g93kpb0lp9pmbnt0mji6l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.todoAppFirestoreExample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

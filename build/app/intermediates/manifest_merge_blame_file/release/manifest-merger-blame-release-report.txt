@@ -1,0 +1,198 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todo_app_firestore_example"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml
+10    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:13:5-79
+12-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:13:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:14:5-67
+13-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:14:22-64
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/57edfcfe7ae1ec40ba70d8d1736b26af/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/57edfcfe7ae1ec40ba70d8d1736b26af/play-services-measurement-api-17.6.0/AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:3:4-40:19
+18        android:name="androidx.multidex.MultiDexApplication"
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/b608c3d8537f54a7ed8ad86b3bfe3664/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:5:9-43
+21        android:label="todo_app_firestore_example" >
+21-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:4:9-51
+22        <activity
+22-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:6:9-34:20
+23            android:name="com.example.todo_app_firestore_example.MainActivity"
+23-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:7:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:10:13-163
+25            android:hardwareAccelerated="true"
+25-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:11:13-47
+26            android:launchMode="singleTop"
+26-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:8:13-43
+27            android:theme="@style/LaunchTheme"
+27-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:9:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:12:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:17:13-20:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:18:15-70
+38                android:resource="@style/NormalTheme" />
+38-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:19:15-52
+39            <!--
+40                 Displays an Android View that continues showing the launch screen
+41                 Drawable until Flutter paints its first frame, then this splash
+42                 screen fades out. A splash screen is useful to avoid any visual
+43                 gap between the end of Android's launch screen and the painting of
+44                 Flutter's first frame.
+45            -->
+46            <meta-data
+46-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:26:13-29:17
+47                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+47-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:27:15-79
+48                android:resource="@drawable/launch_background" />
+48-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:28:15-61
+49
+50            <intent-filter>
+50-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:30:13-33:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:31:17-68
+51-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:31:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:32:17-76
+53-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:32:27-74
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+60-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:37:9-39:33
+61            android:name="flutterEmbedding"
+61-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:38:13-44
+62            android:value="2" />
+62-->/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/android/app/src/main/AndroidManifest.xml:39:13-30
+63
+64        <service
+64-->[:cloud_firestore] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[:cloud_firestore] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:19.3.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/cdb1cee3dae0dacbdfb466ae6f74f659/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:19:13-37
+68            <meta-data
+68-->[:cloud_firestore] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+69-->[:cloud_firestore] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:cloud_firestore] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+71            <meta-data
+71-->[:firebase_core] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+72-->[:firebase_core] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:firebase_core] /Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:20:13-22:85
+75                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+75-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:21:17-111
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-firestore:21.7.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/431a8db7a1a4275b892a77dda96e3294/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:22:17-82
+77            <meta-data
+77-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/57edfcfe7ae1ec40ba70d8d1736b26af/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+78                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+78-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/57edfcfe7ae1ec40ba70d8d1736b26af/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/57edfcfe7ae1ec40ba70d8d1736b26af/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-installations:16.3.2] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/6205e13c4efdc5aa0385af288ea75de9/firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+81                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+81-->[com.google.firebase:firebase-installations:16.3.2] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/6205e13c4efdc5aa0385af288ea75de9/firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-installations:16.3.2] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/6205e13c4efdc5aa0385af288ea75de9/firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+83        </service>
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:17.0.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/892f12cb19c195a7eda8426a3af31064/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:17.0.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/892f12cb19c195a7eda8426a3af31064/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:17.0.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/892f12cb19c195a7eda8426a3af31064/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:17.0.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/892f12cb19c195a7eda8426a3af31064/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+89
+90        <provider
+90-->[com.google.firebase:firebase-common:19.3.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/cdb1cee3dae0dacbdfb466ae6f74f659/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+91            android:name="com.google.firebase.provider.FirebaseInitProvider"
+91-->[com.google.firebase:firebase-common:19.3.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/cdb1cee3dae0dacbdfb466ae6f74f659/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+92            android:authorities="com.example.todo_app_firestore_example.firebaseinitprovider"
+92-->[com.google.firebase:firebase-common:19.3.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/cdb1cee3dae0dacbdfb466ae6f74f659/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:19.3.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/cdb1cee3dae0dacbdfb466ae6f74f659/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+94            android:exported="false"
+94-->[com.google.firebase:firebase-common:19.3.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/cdb1cee3dae0dacbdfb466ae6f74f659/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+95            android:initOrder="100" />
+95-->[com.google.firebase:firebase-common:19.3.1] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/cdb1cee3dae0dacbdfb466ae6f74f659/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+96
+97        <receiver
+97-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+98            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+98-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+99            android:enabled="true"
+99-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+101        </receiver>
+102
+103        <service
+103-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+104            android:name="com.google.android.gms.measurement.AppMeasurementService"
+104-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+106            android:exported="false" />
+106-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+107        <service
+107-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+108            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+108-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+111            android:permission="android.permission.BIND_JOB_SERVICE" />
+111-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/00afd1d6dd2f3bf18eb0b0b2940aac16/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:17.0.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/c9a9f2d0de2deb528e44e12023ed9fd4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:17.0.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/c9a9f2d0de2deb528e44e12023ed9fd4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->[com.google.android.gms:play-services-basement:17.0.0] /Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/c9a9f2d0de2deb528e44e12023ed9fd4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+116    </application>
+117
+118</manifest>

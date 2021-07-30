@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/firebase_core/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/b608c3d8537f54a7ed8ad86b3bfe3664/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/firebase_core/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/b608c3d8537f54a7ed8ad86b3bfe3664/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/firebase_core/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/b608c3d8537f54a7ed8ad86b3bfe3664/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/siddhantsarkar/Documents/Flutter/todo_app_firestore_example/build/firebase_core/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/siddhantsarkar/.gradle/caches/transforms-2/files-2.1/b608c3d8537f54a7ed8ad86b3bfe3664/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    }
+]
